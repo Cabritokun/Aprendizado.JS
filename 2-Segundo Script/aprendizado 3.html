@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo progamaJS</title>
+    <style>
+        body{
+            background-color: rgb(127, 46, 202); /*Css*/
+            color:white;
+            font: normal 19pt arial;
+        }
+        h1 {
+            color: rgb(75, 12, 12);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1> <!--HTML-->
+    <p>muito interessante JavaScript</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('digite um número: ')) //pode ser usado apenas Number(Int ou Float)
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`a soma entre ${n1} e ${n2} é igual a ${s}`)
+
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`) 
+    </script>
+</body>
+</html>
